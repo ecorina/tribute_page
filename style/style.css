@@ -1,3 +1,37 @@
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+header {
+  text-align: center;
+  margin: 40px auto;
+}
+
 h1 {
-  color: red;
+  color: crimson;
+}
+
+hr {
+  color: crimson;
+  border-top: 5px solid;
+  opacity: 1;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0px;
+  max-width: 100%;
+}
+
+.container {
+  background-color: rgba(233, 233, 233, 0.918);
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 80px auto;
+  box-shadow: 8px 12px 60px black;
+}
+
+.col-8 {
+  position: inherit;
 }
