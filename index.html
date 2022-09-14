@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audrey Hepburn Tribute</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,24 +17,22 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
+    <div class="date">Wednesday 14.09.2022</div>
     <div class="container">
       <header>
-        <h1>Audrey Hepburn Tribute</h1>
+        <h1>Audrey Hepburn Tribute Page</h1>
         <h2>British actress and humanitarian</h2>
       </header>
-
+      <hr />
       <div class="row">
         <div class="col-4">
-          <hr />
           <img src="style/Audrey.png" alt="Audrey" />
-          <hr />
         </div>
         <div class="col-8">
-          <br />
-          <br />
           <strong><em>Audrey Hepburn</em></strong> is best known for being one
           of Hollywood’s most successful actresses and for her unfaltering
           beauty as a model. Her elegance and grace made her a worldwide style
@@ -65,18 +64,23 @@
           Tiffany’s, where she became one of the most iconic characters in 20th
           century American cinema, setting new standards for glamour and
           fashion. For this she received her third Academy Award nomination.
-          <a
-            href="https://www.theedgesusu.co.uk/features/2017/04/10/audrey-hepburn-from-beauty-to-humanitarian/"
-            >link</a
-          >
+
+          <div class="link">
+            <a
+              href="https://en.wikipedia.org/wiki/Audrey_Hepburn_on_screen_and_stage"
+              target="_blank"
+              >Find out more...</a
+            >
+          </div>
         </div>
       </div>
+      <hr />
 
       <div class="films">
         <div class="filmList">List of film credits</div>
 
         <div class="row">
-          <div class="col-1">
+          <div class="col-6" id="years">
             <ul>
               <li>1948</li>
               <li>1951</li>
@@ -107,7 +111,7 @@
               <li>1989</li>
             </ul>
           </div>
-          <div class="col-11">
+          <div class="col-6" id="movie">
             <ul>
               <li>Dutch in Seven Lessons</li>
               <li>One Wild Oat</li>
@@ -140,6 +144,12 @@
           </div>
         </div>
       </div>
+      <footer>
+        Code by
+        <a href="https://github.com/ecorina/tribute_page" target="_blank"
+          >Corina ES
+        </a>
+      </footer>
     </div>
   </body>
 </html>
